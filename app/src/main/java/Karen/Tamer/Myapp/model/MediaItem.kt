@@ -11,6 +11,8 @@ data class MediaItem(
     enum class Type {PHOTO, VIDEO}
 }
 
+
+
 fun getMedia() = (1..20).map{
     MediaItem(
         id = it,
