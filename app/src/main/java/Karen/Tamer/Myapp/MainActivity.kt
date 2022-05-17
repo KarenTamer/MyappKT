@@ -23,7 +23,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContent {
             MyMoviesApp{
+
                 //Greeting("Android")
+
                 val navController = rememberNavController()
                 NavHost(navController = navController, startDestination = "main"){
                     composable("main"){

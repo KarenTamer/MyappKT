@@ -15,7 +15,7 @@ fun getMedia() = (1..20).map{
     MediaItem(
         id = it,
         title = "Imagen $it",
-        thumb = "https://picsum.photos/200=$it",
+        thumb = "https://picsum.photos/200/300?random=$it",
         type = if(it % 3 == 0) Type.VIDEO else Type.PHOTO
     )
 }
